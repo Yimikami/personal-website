@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yimikami Personal Site</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <div>
+          <h1>About Me</h1>
+          <p>
+            I am Yimikami, I'm a full stack web developer student with a passion
+            for creating beautiful and functional websites. I have experience
+            with HTML, CSS, JavaScript, React, Python, and more on the way. I am
+            always looking for new opportunities to learn and grow as a
+            developer and as a student.
+          </p>
+        </div>
+        <img
+          src="https://camo.githubusercontent.com/af2d42726182f2e12ed89d223df42c52514680326697c9e408898bf0095dc368/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313234383236333031353937363134303839332f313234383337343634303636363231343436312f59696d696b616d695f4176617461722e706e673f65783d36363633366566632669733d363636323164376326686d3d3761303463313663643638343762313336643962643232303630316434653836613334393137393636386432313839373731316534626637613439643134313326"
+          alt="Yimikami"
+        />
+      </section>
+      <section id="projects">
+        <div class="project">
+          <img src="imgs/9ix.png" alt="9ix Music" />
+          <h2><a href="https://9ixmusic.com" target="_blank">9ix Music</a></h2>
+          <p>9ix Music is a label company that focuses on music production.</p>
+        </div>
+        <div class="project">
+          <img src="imgs/artboard.png" alt="Artboard Media" />
+          <h2>
+            <a href="https://artboard.media" target="_blank">Artboard Media</a>
+          </h2>
+          <p>
+            Artboard Media is a creative media agency that focuses on design,
+            branding, and marketing.
+          </p>
+        </div>
+        <div class="project">
+          <img src="imgs/quiz.png" alt="Quiz Game" />
+          <h2>
+            <a href="https://github.com/Yimikami/dev-quiz-game" target="_blank"
+              >Dev-Quiz Game</a
+            >
+          </h2>
+          <p>
+            Simple web application to test your knowledge in various categories.
+            Made for Codédex Final Project.
+          </p>
+        </div>
+        <div class="project">
+          <img src="imgs/purehour.png" alt="PureHour" />
+          <h2>
+            <a href="https://github.com/ValeChill/Hour-Clock" target="_blank"
+              >PureHour <br />(WIP - Group Project - Contributed)
+            </a>
+          </h2>
+          <p>
+            PureHour, a sleek and customizable productivity tool designed to
+            enhance your workflow and keep you on track throughout the day.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1>Contact</h1>
+        <div id="contact-links">
+          <p>
+            <box-icon name="envelope" type="solid"></box-icon>
+            Email:
+            <a href="mailto:hi@yimikami.me">hi@yimikami.me</a>
+          </p>
+          <p>
+            <box-icon type="logo" name="github"></box-icon> Github:
+            <a href="https://github.com/yimikami">Yimikami</a>
+          </p>
+        </div>
+
+        <h2>Also you can contact me via the form below</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="5b9a8c56-aabb-4c94-8a95-d891f0bb4bec"
+          />
+
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Made with ❤️ by <a href="https://yimikami.me">Yimikami</a></p>
+    </footer>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
